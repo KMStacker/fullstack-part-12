@@ -1,1 +1,1 @@
-Link to Exercise 22 repository: https://github.com/KMStacker/fullstack-part-12-blogapp
+Link to Exercise 22 and 23 repository: https://github.com/KMStacker/fullstack-part-12-blogapp
