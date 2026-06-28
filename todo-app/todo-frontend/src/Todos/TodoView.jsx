@@ -13,7 +13,9 @@ const TodoView = () => {
   }
 
   useEffect(() => {
-    refreshTodos()
+    axios.get('/todos').then(({ data }) => {
+      setTodos(data)
+    })
   }, [])
 
   const createTodo = async (todo) => {
